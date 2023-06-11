@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="./Appearance.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/Huever08/Brighton/main/XML_BRYAN/appearance.xsl"?>
 <!DOCTYPE BUSINESS [
     <!ENTITY storename "BRYAN's CAFE">
 <!ENTITY sound SYSTEM "musicB.mp3">
