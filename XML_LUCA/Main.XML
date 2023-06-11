@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="./Style.xsl"?>
+<!DOCTYPE MENU [
+    <!ENTITY storename "Luca's Loaves">
+<!ENTITY sound SYSTEM "music.mp3">
+<!ELEMENT MENU (BRAND, wallpaper, heading, CD+)>
+<!ELEMENT BRAND (#PCDATA)>
+<!ELEMENT wallpaper (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT CD (Variety, Price, Details, ImageURL)>
+<!ELEMENT Variety (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Details (#PCDATA)>
+<!ELEMENT ImageURL (#PCDATA)>
+]>
+<MENU>
+    <BRAND>Luca's Loaves</BRAND>
+    <wallpaper>./img/wallpaper.jpg</wallpaper>
+    <audio>./img/BackgroundM.mp3</audio>
+    <heading>ICTWEB518 Build a document using extensible markup language - Submitted by Huever Uy</heading>
+    <CD>
+        <Variety>Sourdough White</Variety>
+        <Price>AUD $7.00</Price>
+        <Details>Our standard sourdough</Details>
+        <ImageURL>./img/1.jpg</ImageURL>
+    </CD>
+    <CD>
+        <Variety>Sourdough Rye</Variety>
+        <Price>AUD $8.00</Price>
+        <Details>Sourdough created with 50% rye flour</Details>
+        <ImageURL>./img/2.jpg</ImageURL>
+    </CD>
+    <CD>
+        <Variety>Sourdough Spelt</Variety>
+        <Price>AUD $9.00</Price>
+        <Details>Sourdough created with 100% spelt flour.</Details>
+        <ImageURL>./img/3.jpg</ImageURL>
+    </CD>
+    <CD>
+        <Variety>Sourdough Seeded</Variety>
+        <Price>AUD $9.50</Price>
+        <Details>Sourdough including a mixture of yummy seeds..</Details>
+        <ImageURL>./img/4.jpg</ImageURL>
+    </CD>
+</MENU>
