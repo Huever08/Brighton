@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="./Appearance.xsl"?>
+<!DOCTYPE BUSINESS [
+    <!ENTITY storename "BRYAN's CAFE">
+<!ENTITY sound SYSTEM "musicB.mp3">
+<!ELEMENT BUSINESS (PRODUCT, backgroundIMG, title, CD+)>
+<!ELEMENT PRODUCT (#PCDATA)>
+<!ELEMENT backgroundIMG (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT CD (Productname, Price, Details, Imgsource)>
+<!ELEMENT Productname (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Details (#PCDATA)>
+<!ELEMENT Imgsource (#PCDATA)>
+]>
+<BUSINESS>
+    <PRODUCT>Bryan's Café</PRODUCT>
+    <backgroundIMG>./img/Wallpaper-img.jpg</backgroundIMG>
+    <audio>./mp3/musicB.mp3</audio>
+    <title>ICTWEB518 Build a document using extensible markup language - Submitted by Huever Uy</title>
+    <CD>
+        <Productname>Beetroot and feta salad</Productname>
+        <Price>AUD $15.00</Price>
+        <Details>Suitable for vegetarians, made with fresh beetroot</Details>
+        <Imgsource>./img/bryan1.gif</Imgsource>
+    </CD>
+    <CD>
+        <Productname>Sourdough Rye Sandwich</Productname>
+        <Price>AUD $18.00</Price>
+        <Details>Cheese and salad sandwich made with organic, sourdough rye bread</Details>
+        <Imgsource>./img/bryan2.gif</Imgsource>
+    </CD>
+    <CD>
+        <Productname>Spinach Pie and Salad</Productname>
+        <Price>AUD $20.00</Price>
+        <Details>Tasty pie with salad</Details>
+        <Imgsource>./img/bryan3.gif</Imgsource>
+    </CD>
+    <CD>
+        <Productname>Feta pancakes with salad</Productname>
+        <Price>AUD $19.50</Price>
+        <Details>Tasty pancake filled with feta and salad. </Details>
+        <Imgsource>./img/bryan4.gif</Imgsource>
+    </CD>
+</BUSINESS>
